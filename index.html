@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>todolist</title>
+</head>
+<body>
+<div class="wrap">
+    <h1>TODOLIST</h1>
+    <div class="enter">
+        <input type="text" placeholder="請輸入待辦事項" class="txt" >
+        <input type="button" value="+" class="save">
+    </div>
+    <div class="show">
+        <ul class="btn">       
+           <li>
+               <input type="button" value="全部" class="all">
+           </li>
+           <li>
+            <input type="button" value="待完成" class="todo">
+            </li>
+            <li>
+                <input type="button" value="已完成" class="done">
+            </li>
+        </ul>
+        <div class="content"></div>
+            <ul class="list"></ul>
+            <p class="todototal"></p>
+            <p class="deletedone">清除已完成項目</p>
+        </div>
+    </div>
+</div>
+    <script src="/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(174deg, #FFD370 2%, #FFD370 46%, #FFFFFF 46%, #FFFFFF 100%, #E8E8E8 100%);
+}
+.wrap{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 26px;
+}
+.enter{
+    display: flex;
+    align-items: center;
+}
+.enter .txt{
+    width: 500px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 24px;
+    outline: none;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+    background: #FFFFFF;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+   
+}
+.enter .save{
+    width: 40px;
+    height: 40px;
+    background: #333333;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 32px;
+    flex-shrink: 0;
+    position: relative;
+    right: 44px;
+    bottom: 4px
+
+}
+.show{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: left;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+}
+.show input{
+    border: none;
+    background-color: #fff;
+    width: 100%;
+    font-size: 20px;
+    position: relative;
+    
+    padding: 16px 0;
+    
+}
+.show .btn {
+    display: flex;   
+}
+.show .btn input:hover{
+    border-bottom: 2px solid #333333;
+}
+.show .btn li{
+    width: 100%;
+}
+.content{
+    padding: 0 24px;
+}
+.show .checkbox{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+.list li{
+    display: inline-block;
+    border-bottom: 1px solid #EFEFEF;
+    width: 428px;
+    margin-left: 24px;
+    line-height: 2;   
+}
+.list li .delete{
+    display: inline-block;
+    width: 16px;
+    border: none;
+}
+.changeDone{
+    color: rgba(51,51,51,0.30);
+    text-decoration:line-through;
+}
